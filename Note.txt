@@ -8,3 +8,13 @@ http://localhost:8888/config-client-app/prod
 
 http://localhost:8888/config-client-app.properties
 http://localhost:8888/config-client-app.yml
+
+Change properties without restart
+/refresh with spring actuator
+/bus/refresh with spring-cloud-bus
+vcs + /monitor with spring-cloud-config-monitor and spring cloud bus
+
+POST
+http://localhost:8080/actuator/refresh
+@Value is not automatically refresh
+Fix by adding @RefreshScope to the class
