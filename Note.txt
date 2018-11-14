@@ -1,0 +1,3 @@
+Create 2 instance of the service to see 
+InstanceInfo instanceInfo = client.getNextServerFromEureka("service", false);
+return the instanceInfo in round-robin fashion
