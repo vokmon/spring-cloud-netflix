@@ -1,3 +1,10 @@
 Create 2 instance of the service to see 
 InstanceInfo instanceInfo = client.getNextServerFromEureka("service", false);
 return the instanceInfo in round-robin fashion
+
+Returen the configuration from servers
+http://localhost:8888/config-client-app/default
+http://localhost:8888/config-client-app/prod
+
+http://localhost:8888/config-client-app.properties
+http://localhost:8888/config-client-app.yml
