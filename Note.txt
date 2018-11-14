@@ -24,3 +24,8 @@ Zuul
 start up discover server, gateway server, goodbye server and hello server
 http://localhost:8080/hello
 http://localhost:8080/goodbye
+
+Pre - Before the request
+route - Direct the request
+post - After the request
+error - Handle request errors
