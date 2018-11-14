@@ -11,9 +11,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import io.training.ribbontimeapp.config.RibbonTimeConfig;
+
 @RestController
 // @EnableDiscoveryClient
-@RibbonClient(name = "time-service") // client side load balancing
+@RibbonClient(name = "time-service", configuration = RibbonTimeConfig.class) // client side load
+                                                                             // balancing
 @SpringBootApplication
 public class RibbonTimeAppApplication {
 
