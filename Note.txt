@@ -18,3 +18,9 @@ POST
 http://localhost:8080/actuator/refresh
 @Value is not automatically refresh
 Fix by adding @RefreshScope to the class
+
+
+Zuul
+start up discover server, gateway server, goodbye server and hello server
+http://localhost:8080/hello
+http://localhost:8080/goodbye
