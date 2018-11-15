@@ -31,3 +31,6 @@ post - After the request
 error - Handle request errors
 
 Netflix Hystrix - Fault torrelance lib
+Hystrix dashboard
+http://localhost:8080/hystrix
+Fill in http://localhost:8000/actuator/hystrix.stream
