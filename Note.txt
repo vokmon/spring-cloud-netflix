@@ -1,3 +1,5 @@
+https://start.spring.io/
+
 Create 2 instance of the service to see 
 InstanceInfo instanceInfo = client.getNextServerFromEureka("service", false);
 return the instanceInfo in round-robin fashion
@@ -34,3 +36,10 @@ Netflix Hystrix - Fault torrelance lib
 Hystrix dashboard
 http://localhost:8080/hystrix
 Fill in http://localhost:8000/actuator/hystrix.stream
+
+Turbine aggregate matrix from hystrix
+http://localhost:8000/current/weather
+http://localhost:8001/current/date-time
+
+Go to http://localhost:8080/hystrix and fill in
+http://localhost:3000/turbine.stream
