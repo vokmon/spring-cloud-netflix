@@ -29,3 +29,5 @@ Pre - Before the request
 route - Direct the request
 post - After the request
 error - Handle request errors
+
+Netflix Hystrix - Fault torrelance lib
